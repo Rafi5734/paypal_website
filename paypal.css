@@ -253,3 +253,53 @@ html {
     font-size: 1.5rem;
 }
 /* ---------Start section-3------------*/
+
+/* ---------Start section-4------------*/
+.section-4 {
+    width: 100%;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4-heading {
+    font-size: 5rem;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 5rem;
+}
+.business-section {
+    display: flex;
+}
+.business-section-img-wrapper {
+    width: 50rem;
+}
+.business-section-img-wrapper img {
+    width: 100%;
+}
+.lists {
+    width: 55%;
+    margin-top: 5rem;
+}
+.list-items {
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.number {
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.1rem solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span-test a {
+    color: #036bb1;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+/* ---------End of section-4------------*/
