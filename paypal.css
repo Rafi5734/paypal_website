@@ -12,7 +12,6 @@
 html {
     font-size: 62.5%;
 }
-
 /* ---------start section-1------------*/
 .section-1 {
     width: 100%;
@@ -332,3 +331,78 @@ html {
     border: none;
 }
 /* ---------End of footer section------------*/
+
+/*---------Responsive Code-----------*/
+@media (max-width: 1500px) {
+    .nav-dropdown {
+        padding: 0 25rem;
+    }
+    .nav-dropdown-item {
+        margin: 2rem 6rem;
+    }
+    .features {
+        width: 80%;
+    }
+    .feature {
+        padding: 0 3rem;
+    }
+}
+@media (max-width: 1400px) {
+    html {
+        font-size: 55%;
+    }
+    .navbar {
+        width: 100rem;
+    }
+    .section-1 {
+        height: 70vh;
+    }
+    .banner-text {
+        width: 70%;
+    }
+    .business-section {
+        width: 70%;
+    }
+}
+@media (max-width: 1200px) {
+    .banner {
+        margin-top: 5rem;
+    }
+    .banner-title {
+        font-size: 100%;
+    }
+    .features {
+        width: 70%;
+    }
+    .lists {
+        margin-left: 10rem;
+    }
+}
+@media (max-width: 1000px) {
+    .section-2-heading {
+        width: 80%;
+        font-size: 4rem;
+        text-align: center;
+    }
+    .services {
+        width: 70%;
+        margin-right: 7rem;
+        margin-top: 8rem;
+    }
+    .service-btn {
+        width: 90%;
+        margin-top: 3rem;
+    }
+    .features {
+        width: 80%;
+        text-align: center;
+    }
+    .feature-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .get-btn {
+        width: 100%;
+    }
+}
+/*---------End of Responsive Code-----------*/
